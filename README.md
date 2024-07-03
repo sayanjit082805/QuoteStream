@@ -45,7 +45,7 @@ cd QuoteStream
 
 * Install dependencies with ```npm install```
 
-* Open ```src/apikey.js``` and enter your api-key in the enter the key.
+* Open ```src/apikey.js``` and enter your api-key in the provided field.
 
 * Assuming you are using vscode, install [this](https://ritwickdey.github.io/vscode-live-server/) extension.
 
