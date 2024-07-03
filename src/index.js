@@ -1,9 +1,11 @@
+import KEY from "./apikey.js";
+
 const quote_id = document.querySelector("#quote");
 const author_id = document.querySelector("#author");
 const quote_btn = document.querySelector("#newQuote");
 const copy_btn = document.querySelector("#copy");
 const tweet_btn = document.querySelector("#tweet");
-const url = "https://zenquotes.io/api/random";
+const url = "https://api.api-ninjas.com/v1/quotes?category=inspirational";
 
 function setupTweet(quote, author) {
   const tweet_text = `"${quote}" - ${author}`;
@@ -26,7 +28,7 @@ function typeWriterEffect(element, text, i = 0) {
 
 async function getQuote() {
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, { headers: { "X-Api-Key": KEY } });
     let data = await response.json();
     typeWriterEffect(quote_id, data[0].q);
     typeWriterEffect(author_id, data[0].a);
