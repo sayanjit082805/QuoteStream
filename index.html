@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>QuoteStream</title>
+  </head>
+  <body
+    class="flex items-center justify-center h-lvh box-border bg-gradient-to-r from-cyan-500 to-blue-500"
+  >
+    <main
+      class="flex flex-col items-center w-full max-w-[600px] p-20 shadow-3xl rounded-xl bg-gradient-to-r from-slate-50 to-slate-200 m-5"
+    >
+      <h1
+        id="quote"
+        class="mx-10 mt-0 mb-1 text-3xl font-extrabold text-black text-center"
+      ></h1>
+      <hr class="m-10 w-full border-2 border-slate-300 border-solid" />
+      <p id="author" class="mx-10 text-2xl mb-8 font-medium text-black"></p>
+      <div class="w-full flex justify-between items-center mt-3">
+        <a
+          id="tweet"
+          data-size="large"
+          href="https://twitter.com/intent/tweet?text=Hello%20world"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-white bg-gradient-to-br from-cyan-500 to to-blue-500 hover:bg-gradient-to-bl focus:outline-none font-bold text-[20px] p:10 rounded-lg px-5 py-2.5 text-center me-2 mb-2 mx-10"
+          >Tweet</a
+        >
+        <button
+          id="copy"
+          class="text-white bg-gradient-to-br from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:outline-none font-bold text-[20px] p:10 rounded-lg px-5 py-2.5 text-center me-2 mb-2"
+        >
+          Copy
+        </button>
+
+        <button
+          id="newQuote"
+          class="text-white bg-gradient-to-br from-cyan-500 to to-blue-500 hover:bg-gradient-to-bl focus:outline-none font-bold text-[20px] rounded-lg px-5 py-2.5 text-center me-2 mb-2"
+        >
+          Generate
+        </button>
+      </div>
+    </main>
+    <script src="./src/index.js" type="module"></script>
+  </body>
+</html>

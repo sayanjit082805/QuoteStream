@@ -1,0 +1,14 @@
+{
+  "name": "quotes",
+  "version": "1.0.0",
+  "description": "quotes generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sayanjit Ukil",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
