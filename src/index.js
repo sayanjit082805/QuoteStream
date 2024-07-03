@@ -3,7 +3,7 @@ const author_id = document.querySelector("#author");
 const quote_btn = document.querySelector("#newQuote");
 const copy_btn = document.querySelector("#copy");
 const tweet_btn = document.querySelector("#tweet");
-const url = "http://localhost:3000/";
+const url = "https://zenquotes.io/api/random";
 
 function setupTweet(quote, author) {
   const tweet_text = `"${quote}" - ${author}`;
