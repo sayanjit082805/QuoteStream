@@ -20,9 +20,9 @@ QuoteStream is a quote generator application built using vanilla JavaScript and 
 
 ## Screenshots
 
-![](https://raw.githubusercontent.com/sayanjit082805/QuoteStream/main/assets/ss-1.png)
+![](https://raw.githubusercontent.com/sayanjit082805/QuoteStream/main/assets/ss_1.png)
 
-![](https://raw.githubusercontent.com/sayanjit082805/QuoteStream/main/assets/ss-2.png)
+![](https://raw.githubusercontent.com/sayanjit082805/QuoteStream/main/assets/ss_2.png)
 
 
 ## Prerequisites
