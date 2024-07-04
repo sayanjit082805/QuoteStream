@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # api-key
-src/api-key.js
+api-key.js
