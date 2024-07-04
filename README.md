@@ -43,9 +43,14 @@ git clone https://github.com/sayanjit082805/QuoteStream.git
 cd QuoteStream
 ```
 
-* Install dependencies with ```npm install```
+* Install dependencies with ```npm install``` (do this only if you want to modify/contribute)
 
-* Open ```src/apikey.js``` and enter your api-key in the provided field.
+* Create ```src/apikey.js``` and enter paste the following code : 
+
+```const KEY = '' // Add key here
+   export default KEY
+```
+* Now, add your generated key.
 
 * Assuming you are using vscode, install [this](https://ritwickdey.github.io/vscode-live-server/) extension.
 
