@@ -45,12 +45,11 @@ cd QuoteStream
 
 * Install dependencies with ```npm install``` (do this only if you want to modify/contribute)
 
-* Create ```src/apikey.js``` and enter paste the following code : 
+* Create ```src/apikey.js``` and paste the following code : 
 
 ```
 const KEY = '' // Add key here
 export default KEY
-
 ```
 * Now, add your generated key.
 
