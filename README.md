@@ -47,8 +47,10 @@ cd QuoteStream
 
 * Create ```src/apikey.js``` and enter paste the following code : 
 
-```const KEY = '' // Add key here
-   export default KEY
+```
+const KEY = '' // Add key here
+export default KEY
+
 ```
 * Now, add your generated key.
 
