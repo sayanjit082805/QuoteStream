@@ -30,9 +30,9 @@ async function getQuote() {
   try {
     const response = await fetch(url, { headers: { "X-Api-Key": KEY } });
     let data = await response.json();
-    typeWriterEffect(quote_id, data[0].q);
-    typeWriterEffect(author_id, data[0].a);
-    setupTweet(data[0].q, data[0].a);
+    typeWriterEffect(quote_id, data[0].quote);
+    typeWriterEffect(author_id, data[0].author);
+    setupTweet(data[0].quote, data[0].author);
     document.getElementById("copy").innerHTML = "Copy";
   } catch (error) {
     console.log(error);
